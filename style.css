@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000;
 }
 .box{
     width: 400px;
@@ -35,6 +36,7 @@ body{
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)* 60deg)) translateZ(500px);
+    box-shadow: rgb(255, 251, 251) 0px 2px 8px 0px;
 }
 @keyframes animate {
     0%{
